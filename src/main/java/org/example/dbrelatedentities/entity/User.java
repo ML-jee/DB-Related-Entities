@@ -27,7 +27,7 @@ public class User {
     private String statutMarital;
     private float revenue;
     private String email;
-    private String role="ROLE_CLIENT";
+    private String role="CLIENT";
     private String typeAssurance;
     private String adresseWallet;
     private String password;

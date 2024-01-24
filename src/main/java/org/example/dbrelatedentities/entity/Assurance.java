@@ -22,7 +22,7 @@ public class Assurance {
     private String description;
     private float prix;
 
-    @ManyToOne
+    /*@ManyToOne
     @JoinColumn(name = "user_cin", nullable = false)
-    private User user;
+    private User user;*/
 }

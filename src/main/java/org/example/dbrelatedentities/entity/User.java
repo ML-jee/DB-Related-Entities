@@ -32,7 +32,5 @@ public class User {
     private String adresseWallet;
     private String password;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Assurance> assurances;
 
 }
